@@ -1,0 +1,173 @@
+/* =========================
+   🎯 DESIGN SYSTEM — PAULA FONTE
+   Tech Minimal Blue Theme
+   ========================= */
+
+:root {
+  /* 🎨 Backgrounds */
+  --theme: #FFFFFF;
+  --entry: #FFFFFF;
+  --primary: #0F172A;
+
+  /* 🧠 Text */
+  --content: #0F172A;
+  --secondary: #475569;
+
+  /* 🔵 Accent (blue metallic) */
+  --tertiary: #1D4ED8;
+  --link: #1D4ED8;
+  --link-hover: #3B82F6;
+
+  /* ⚙️ Borders / surfaces */
+  --border: #E2E8F0;
+  --code-bg: #F5F7FA;
+
+  /* 🔘 Buttons */
+  --button-bg: #1D4ED8;
+  --button-text: #FFFFFF;
+}
+
+/* =========================
+   ✍️ Typography
+   ========================= */
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: var(--content);
+  background: var(--theme);
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+p {
+  color: var(--secondary);
+}
+
+/* =========================
+   🔗 Links
+   ========================= */
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* =========================
+   🔘 Buttons
+   ========================= */
+
+.button,
+.btn {
+  background: linear-gradient(135deg, #1D4ED8, #3B82F6);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.button:hover,
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(29, 78, 216, 0.25);
+}
+
+/* =========================
+   📦 Cards (posts / sections)
+   ========================= */
+
+.post-entry {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--entry);
+  transition: all 0.25s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+/* =========================
+   🧱 Layout improvements
+   ========================= */
+
+hr {
+  border: none;
+  height: 1px;
+  background: var(--border);
+  margin: 2rem 0;
+}
+
+/* =========================
+   🏠 HERO (home-info)
+   ========================= */
+
+.home-info {
+  max-width: 720px;
+}
+
+.home-info .entry-title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.home-info .entry-content {
+  font-size: 1.15rem;
+  color: var(--secondary);
+  margin-top: 1rem;
+}
+
+/* =========================
+   📋 Menu / Navigation
+   ========================= */
+
+.nav a {
+  font-weight: 500;
+  color: var(--secondary);
+}
+
+.nav a:hover {
+  color: var(--primary);
+}
+
+/* =========================
+   📑 Code blocks
+   ========================= */
+
+pre {
+  background: var(--code-bg);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+/* =========================
+   ✨ Subtle polish
+   ========================= */
+
+.container {
+  max-width: 1100px;
+}
+
+main {
+  padding-top: 20px;
+}
+
+/* =========================
+   🔥 Optional: smooth transitions
+   ========================= */
+
+* {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
