@@ -77,27 +77,32 @@ pre {
   padding: 12px;
 }
 
+/* Header fijo, limpio, estilo técnico */
 .header {
   position: sticky;
   top: 0;
   z-index: 40;
-  padding: 18px 24px 0;
-  background: transparent;
+  padding: 0;
+  background: #ffffff;
+  border-bottom: 1px solid var(--border);
 }
 
+/* Contenedor del header */
 .header-nav {
   max-width: 1180px;
   margin: 0 auto;
+  padding: 10px 20px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  padding: 14px 18px;
-  border: 1px solid rgba(217, 227, 238, 0.92);
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.78);
-  backdrop-filter: blur(18px);
-  box-shadow: var(--shadow-header);
+
+  /* eliminar efecto flotante */
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  backdrop-filter: none;
+  box-shadow: none;
 }
 
 .logo a {
