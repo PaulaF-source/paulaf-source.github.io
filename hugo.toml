@@ -1,20 +1,19 @@
 baseURL = "https://paulafonte.fr/"
 languageCode = "fr"
 defaultContentLanguage = "fr"
-title = "Paula Fonte — Ingénieure Data & Analytics"
+title = "Paula Fonte"
 theme = "PaperMod"
 
 [pagination]
   pagerSize = 5
 
-# Si compras dominio propio, cambia baseURL a: https://paulafonte.fr/
-
 [params]
   disableGoogleAnalytics = true
   env = "production"
-  description = "Ingénieure Data freelance — Data Engineering, Analytics & Modélisation"
+  description = "Portfolio freelance en data engineering, analytics et automatisation."
   author = "Paula Fonte"
-  defaultTheme = "light"        # light | dark | auto
+  defaultTheme = "light"
+  disableThemeToggle = true
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -22,15 +21,9 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowToc = true
 
-  [params.homeInfoParams]
-    Title = "Paula Fonte"
-    Content = """
-Ingénieure Data & Analytics — Freelance à Paris
-
-Double formation en mathématiques appliquées (Dauphine-PSL) et ingénierie des données (DSTI). \
-J'aide les entreprises à structurer leurs données, automatiser leurs pipelines et transformer \
-leurs données en décisions.
-"""
+  [params.brand]
+    subtitle = "Data Engineering & Analytics"
+    footer = "Portfolio freelance en data engineering, analytics et automatisation."
 
   [[params.socialIcons]]
     name = "linkedin"
@@ -43,23 +36,23 @@ leurs données en décisions.
     url = "mailto:paulafonte97@gmail.com"
 
 [params.profileMode]
-  enabled = false  # Poner true si prefieres modo profile en vez de homeInfo
+  enabled = false
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "À propos"
-    url = "/about/"
-    weight = 10
   [[menu.main]]
     identifier = "services"
     name = "Services"
     url = "/services/"
-    weight = 20
+    weight = 10
   [[menu.main]]
     identifier = "portfolio"
     name = "Portfolio"
     url = "/portfolio/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "À propos"
+    url = "/about/"
     weight = 30
   [[menu.main]]
     identifier = "blog"

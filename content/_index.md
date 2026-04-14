@@ -1,19 +1,19 @@
 ---
-title: "Accueil"
+title: "Paula Fonte"
 description: "Portfolio freelance en data engineering, analytics et automatisation."
 hero:
-  eyebrow: "Freelance data engineering & analytics"
-  title: "Je structure vos pipelines, vos analyses et vos automatisations pour rendre la donnée claire et exploitable."
-  intro: "J'accompagne les entreprises qui ont besoin de fiabiliser leurs flux, clarifier leurs indicateurs et transformer des systèmes de données complexes en outils lisibles et utiles."
+  eyebrow: "Paula Fonte · Freelance data engineering & analytics"
+  title: "Des systèmes data clairs, fiables et prêts à soutenir vos décisions."
+  intro: "Je conçois des pipelines, des modèles analytiques et des automatisations pour les entreprises qui ont besoin de structurer des flux complexes sans alourdir leur organisation."
   credibility:
-    - "Basée à Paris, disponible en remote ou sur site"
-    - "Double formation en mathématiques appliquées et ingénierie data"
-    - "Missions freelance en data engineering, analytics et automatisation"
+    - "Paris, remote ou sur site"
+    - "Mathématiques appliquées + ingénierie data"
+    - "GCP, BigQuery, Python, SQL"
   primaryCta:
-    label: "Parler de votre projet"
+    label: "Échanger sur votre projet"
     url: "/contact/"
   secondaryCta:
-    label: "Voir une sélection de projets"
+    label: "Voir les projets sélectionnés"
     url: "#selected-work"
 services:
   title: "Ce que je prends en charge"

@@ -36,27 +36,60 @@
       {{ end }}
     </div>
 
-    <aside class="home-hero__panel" aria-label="Positionnement">
-      <div class="home-hero__panel-inner">
-        <p class="home-hero__panel-label">Positionnement</p>
-        <p class="home-hero__panel-title">Data engineering, analytics et automatisation</p>
-        <p class="home-hero__panel-text">Pour les équipes qui ont besoin d'une donnée mieux structurée, plus fiable et plus simple à exploiter.</p>
-        <dl class="home-hero__metrics">
-          <div>
-            <dt>Spécialité</dt>
-            <dd>Flux, modélisation, clarté</dd>
-          </div>
-          <div>
-            <dt>Stack</dt>
-            <dd>GCP, BigQuery, Python, SQL</dd>
-          </div>
-          <div>
-            <dt>Mode</dt>
-            <dd>Freelance, remote ou sur site</dd>
-          </div>
-        </dl>
+    <div class="home-hero__visual" aria-hidden="true">
+      <div class="hero-visual__canvas">
+        <svg class="hero-visual__svg" viewBox="0 0 520 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="heroLine" x1="64" y1="320" x2="432" y2="88" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#92B7FF" />
+              <stop offset="1" stop-color="#2D6CDF" />
+            </linearGradient>
+          </defs>
+          <rect x="40" y="52" width="440" height="316" rx="26" fill="rgba(255,255,255,0.58)" stroke="rgba(45,108,223,0.10)" />
+          <path d="M80 320L156 264L228 282L304 178L380 202L440 128" stroke="url(#heroLine)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M80 320L156 264L228 282L304 178L380 202L440 128L440 344L80 344Z" fill="rgba(45,108,223,0.08)" />
+          <path d="M96 320H438" stroke="rgba(16,35,63,0.12)" stroke-width="1" stroke-dasharray="6 8" />
+          <path d="M96 260H438" stroke="rgba(16,35,63,0.08)" stroke-width="1" stroke-dasharray="6 8" />
+          <path d="M96 200H438" stroke="rgba(16,35,63,0.08)" stroke-width="1" stroke-dasharray="6 8" />
+          <path d="M96 140H438" stroke="rgba(16,35,63,0.08)" stroke-width="1" stroke-dasharray="6 8" />
+          <circle cx="156" cy="264" r="10" fill="#F8FBFE" stroke="#2D6CDF" stroke-width="4" />
+          <circle cx="304" cy="178" r="10" fill="#F8FBFE" stroke="#2D6CDF" stroke-width="4" />
+          <circle cx="440" cy="128" r="10" fill="#F8FBFE" stroke="#2D6CDF" stroke-width="4" />
+          <rect x="112" y="112" width="76" height="16" rx="8" fill="rgba(45,108,223,0.12)" />
+          <rect x="204" y="112" width="108" height="16" rx="8" fill="rgba(16,35,63,0.08)" />
+          <rect x="112" y="144" width="142" height="16" rx="8" fill="rgba(16,35,63,0.08)" />
+          <rect x="272" y="144" width="68" height="16" rx="8" fill="rgba(45,108,223,0.12)" />
+        </svg>
+
+        <div class="hero-visual__card hero-visual__card--one">
+          <span>Collecter</span>
+          <strong>Connecter les bonnes sources sans multiplier les manipulations.</strong>
+        </div>
+        <div class="hero-visual__card hero-visual__card--two">
+          <span>Structurer</span>
+          <strong>Concevoir des flux et des modèles que l'équipe peut reprendre sereinement.</strong>
+        </div>
+        <div class="hero-visual__card hero-visual__card--three">
+          <span>Exploiter</span>
+          <strong>Transformer la donnée en reporting, automatisation et décisions utiles.</strong>
+        </div>
       </div>
-    </aside>
+
+      <div class="hero-visual__legend">
+        <div>
+          <span>Pipelines</span>
+          <strong>Fiables et traçables</strong>
+        </div>
+        <div>
+          <span>Analytics</span>
+          <strong>Lisibles et cohérents</strong>
+        </div>
+        <div>
+          <span>Automatisation</span>
+          <strong>Utile et maintenable</strong>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="home-section" aria-labelledby="services-title">
