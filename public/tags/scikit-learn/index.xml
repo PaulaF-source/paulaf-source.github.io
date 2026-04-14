@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Scikit-Learn on Paula Fonte — Ingénieure Data &amp; Analytics</title>
+    <link>https://paulafonte.fr/tags/scikit-learn/</link>
+    <description>Recent content in Scikit-Learn on Paula Fonte — Ingénieure Data &amp; Analytics</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://paulafonte.fr/tags/scikit-learn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analyse Prédictive — Prévision de la demande et détection d&#39;anomalies</title>
+      <link>https://paulafonte.fr/portfolio/analyse-predictive/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://paulafonte.fr/portfolio/analyse-predictive/</guid>
+      <description>Application de modèles prédictifs combinant données météo, capteurs et indicateurs business. Background mathématique appliqué à des problèmes réels.</description>
+    </item>
+  </channel>
+</rss>

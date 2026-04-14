@@ -1,0 +1,172 @@
+{{ define "main" }}
+{{ $portfolioSection := site.GetPage "section" "portfolio" }}
+{{ $featuredPages := slice }}
+{{ with $portfolioSection }}
+  {{ $featuredPages = first 3 .RegularPages.ByWeight }}
+{{ end }}
+
+<div class="homepage">
+  <section class="home-hero" aria-labelledby="home-hero-title">
+    <div class="home-hero__content">
+      {{ with .Params.hero.eyebrow }}
+      <p class="home-hero__eyebrow">{{ . }}</p>
+      {{ end }}
+      {{ with .Params.hero.title }}
+      <h1 id="home-hero-title">{{ . }}</h1>
+      {{ end }}
+      {{ with .Params.hero.intro }}
+      <p class="home-hero__intro">{{ . }}</p>
+      {{ end }}
+
+      <div class="home-hero__actions">
+        {{ with .Params.hero.primaryCta }}
+        <a class="pf-button pf-button--primary" href="{{ .url | relURL }}">{{ .label }}</a>
+        {{ end }}
+        {{ with .Params.hero.secondaryCta }}
+        <a class="pf-button pf-button--secondary" href="{{ .url }}">{{ .label }}</a>
+        {{ end }}
+      </div>
+
+      {{ with .Params.hero.credibility }}
+      <ul class="home-hero__credibility" role="list">
+        {{ range . }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+
+    <aside class="home-hero__panel" aria-label="Positionnement">
+      <div class="home-hero__panel-inner">
+        <p class="home-hero__panel-label">Positionnement</p>
+        <p class="home-hero__panel-title">Data engineering, analytics et automatisation</p>
+        <p class="home-hero__panel-text">Pour les équipes qui ont besoin d'une donnée mieux structurée, plus fiable et plus simple à exploiter.</p>
+        <dl class="home-hero__metrics">
+          <div>
+            <dt>Spécialité</dt>
+            <dd>Flux, modélisation, clarté</dd>
+          </div>
+          <div>
+            <dt>Stack</dt>
+            <dd>GCP, BigQuery, Python, SQL</dd>
+          </div>
+          <div>
+            <dt>Mode</dt>
+            <dd>Freelance, remote ou sur site</dd>
+          </div>
+        </dl>
+      </div>
+    </aside>
+  </section>
+
+  <section class="home-section" aria-labelledby="services-title">
+    <div class="home-section__heading">
+      <p class="home-section__eyebrow">Services</p>
+      <h2 id="services-title">{{ .Params.services.title }}</h2>
+    </div>
+    <div class="service-grid">
+      {{ range .Params.services.items }}
+      <article class="service-card">
+        <h3>{{ .title }}</h3>
+        <p><strong>Problème</strong> {{ .problem }}</p>
+        <p><strong>Intervention</strong> {{ .intervention }}</p>
+        <p><strong>Résultat</strong> {{ .result }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="home-section" id="selected-work" aria-labelledby="featured-work-title">
+    <div class="home-section__heading home-section__heading--split">
+      <div>
+        <p class="home-section__eyebrow">Sélection de projets</p>
+        <h2 id="featured-work-title">{{ .Params.featuredWork.title }}</h2>
+      </div>
+      <p class="home-section__intro">{{ .Params.featuredWork.intro }}</p>
+    </div>
+    <div class="case-study-grid">
+      {{ range $featuredPages }}
+      <article class="case-study-card">
+        <p class="case-study-card__type">{{ .Title }}</p>
+        <h3>{{ with .Params.homeLabel }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h3>
+        {{ with .Params.clientProblem }}
+        <p><strong>Contexte</strong> {{ . }}</p>
+        {{ end }}
+        {{ with .Params.approach }}
+        <p><strong>Approche</strong> {{ . }}</p>
+        {{ end }}
+        {{ with .Params.value }}
+        <p><strong>Valeur</strong> {{ . }}</p>
+        {{ end }}
+        {{ with .Params.tags }}
+        <ul class="tag-list" role="list">
+          {{ range . }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+        <a class="case-study-card__link" href="{{ .RelPermalink }}">Voir le projet</a>
+      </article>
+      {{ end }}
+    </div>
+    <p class="home-section__link">
+      <a href="{{ "/portfolio/" | relURL }}">Explorer le portfolio complet</a>
+    </p>
+  </section>
+
+  <section class="home-section home-section--accent" aria-labelledby="working-style-title">
+    <div class="home-section__heading home-section__heading--split">
+      <div>
+        <p class="home-section__eyebrow">Différenciation</p>
+        <h2 id="working-style-title">{{ .Params.workingStyle.title }}</h2>
+      </div>
+      <p class="home-section__intro">{{ .Params.workingStyle.intro }}</p>
+    </div>
+    <div class="principles-grid">
+      {{ range .Params.workingStyle.points }}
+      <article class="principle-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="home-section" aria-labelledby="process-title">
+    <div class="home-section__heading">
+      <p class="home-section__eyebrow">Collaboration</p>
+      <h2 id="process-title">{{ .Params.process.title }}</h2>
+    </div>
+    <div class="process-grid">
+      {{ range $index, $step := .Params.process.steps }}
+      <article class="process-card">
+        <span class="process-card__index">{{ add $index 1 }}</span>
+        <h3>{{ $step.title }}</h3>
+        <p>{{ $step.text }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="home-cta" aria-labelledby="final-cta-title">
+    <div class="home-cta__content">
+      <p class="home-section__eyebrow">Contact</p>
+      <h2 id="final-cta-title">{{ .Params.finalCta.title }}</h2>
+      <p class="home-cta__text">{{ .Params.finalCta.text }}</p>
+      {{ with .Params.finalCta.availability }}
+      <ul class="home-cta__list" role="list">
+        {{ range . }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    <div class="home-cta__action">
+      {{ with .Params.finalCta.cta }}
+      <a class="pf-button pf-button--primary" href="{{ .url }}">{{ .label }}</a>
+      {{ end }}
+      <a class="home-cta__secondary" href="{{ "/contact/" | relURL }}">Voir toutes les informations de contact</a>
+    </div>
+  </section>
+</div>
+{{ end }}

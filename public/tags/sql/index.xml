@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SQL on Paula Fonte — Ingénieure Data &amp; Analytics</title>
+    <link>https://paulafonte.fr/tags/sql/</link>
+    <description>Recent content in SQL on Paula Fonte — Ingénieure Data &amp; Analytics</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://paulafonte.fr/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Showcase — Requêtes avancées sur données publiques</title>
+      <link>https://paulafonte.fr/portfolio/sql-showcase/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://paulafonte.fr/portfolio/sql-showcase/</guid>
+      <description>Démonstration de compétences SQL avancées : CTEs, window functions, optimisation, sur des datasets publics BigQuery.</description>
+    </item>
+  </channel>
+</rss>

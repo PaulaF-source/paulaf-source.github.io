@@ -1,10 +1,14 @@
 ---
 title: "Analyse Prédictive — Prévision de la demande et détection d'anomalies"
-date: 2026-07-01
+date: 2026-04-03
 summary: "Application de modèles prédictifs combinant données météo, capteurs et indicateurs business. Background mathématique appliqué à des problèmes réels."
 tags: ["Python", "Scikit-learn", "Data Science", "Mathématiques"]
 weight: 3
 ShowToc: true
+homeLabel: "Relier rigueur mathématique et usage métier"
+clientProblem: "Certaines équipes ont besoin d'aller au-delà du reporting pour anticiper la demande, détecter des anomalies ou mieux piloter leurs opérations."
+approach: "Préparation des données, feature engineering et modélisation avec une lecture à la fois statistique et opérationnelle."
+value: "Des analyses prédictives conçues pour éclairer la décision sans perdre en lisibilité ni en rigueur."
 ---
 
 ## Contexte
