@@ -1,5 +1,6 @@
-baseURL = "https://paulaf-source.github.io/"  # Cambiar si usas dominio propio
+baseURL = "https://paulaf-source.github.io/"
 languageCode = "fr"
+defaultContentLanguage = "fr"
 title = "Paula Fonte — Ingénieure Data & Analytics"
 theme = "PaperMod"
 paginate = 5
@@ -75,8 +76,3 @@ leurs données en décisions.
   [markup.highlight]
     style = "monokai"
     lineNos = false
-
-[languages]
-  [languages.fr]
-    languageName = "Français"
-    weight = 1
