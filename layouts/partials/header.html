@@ -44,22 +44,24 @@
                 {{- end }}
             </ul>
 
-            {{- if gt (len hugo.Sites) 1 }}
+            {{- $languagePages := sort site.Home.AllTranslations "Language.Weight" -}}
+            {{- if gt (len $languagePages) 1 }}
             <div class="lang-switcher" aria-label="Language switcher">
-                {{- range hugo.Sites }}
-                {{- $langSite := . }}
-                {{- $target := $langSite.Home.RelPermalink }}
-                {{- if eq $currentPage.Lang $langSite.Language.Lang }}
+                {{- range $languagePages }}
+                {{- $langPage := . }}
+                {{- $langCode := $langPage.Language.Lang }}
+                {{- $target := $langPage.RelPermalink }}
+                {{- if eq $currentPage.Lang $langCode }}
                     {{- $target = $currentPage.RelPermalink }}
                 {{- else }}
                     {{- range $currentPage.AllTranslations }}
-                        {{- if eq .Lang $langSite.Language.Lang }}
+                        {{- if eq .Lang $langCode }}
                             {{- $target = .RelPermalink }}
                         {{- end }}
                     {{- end }}
                 {{- end }}
-                <a href="{{ $target }}" lang="{{ $langSite.Language.Lang }}"{{ if eq $currentPage.Lang $langSite.Language.Lang }} class="active" aria-current="true"{{ end }}>
-                    {{ upper $langSite.Language.Lang }}
+                <a href="{{ $target }}" lang="{{ $langCode }}"{{ if eq $currentPage.Lang $langCode }} class="active" aria-current="true"{{ end }}>
+                    {{ upper $langCode }}
                 </a>
                 {{- end }}
             </div>
