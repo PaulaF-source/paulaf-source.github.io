@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Paula Fonte</title>
+    <link>https://paulafonte.fr/en/</link>
+    <description>Recent content on Paula Fonte</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://paulafonte.fr/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Showcase — Advanced queries on public datasets</title>
+      <link>https://paulafonte.fr/en/portfolio/sql-showcase/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://paulafonte.fr/en/portfolio/sql-showcase/</guid>
+      <description>Showcase of advanced SQL skills through CTEs, window functions, and query optimization on public BigQuery datasets.</description>
+    </item>
+    <item>
+      <title>ETL pipeline on GCP — Automated ingestion and transformation</title>
+      <link>https://paulafonte.fr/en/portfolio/pipeline-etl-gcp/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://paulafonte.fr/en/portfolio/pipeline-etl-gcp/</guid>
+      <description>End-to-end pipeline with public API ingestion, BigQuery transformation, Airflow orchestration, and dashboard exposure.</description>
+    </item>
+    <item>
+      <title>Predictive analytics — Demand forecasting and anomaly detection</title>
+      <link>https://paulafonte.fr/en/portfolio/analyse-predictive/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://paulafonte.fr/en/portfolio/analyse-predictive/</guid>
+      <description>Predictive models combining weather, sensor, and business signals, with a mathematical approach applied to real operational questions.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://paulafonte.fr/en/about/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://paulafonte.fr/en/about/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;I am Paula Fonte, a data engineer with a background that combines mathematical rigor with practical data delivery.&lt;/p&gt;
+&lt;p&gt;After studying mathematics at the University of Havana, I continued in France with a Master&amp;rsquo;s degree in Mathematics and Applications at Paris Dauphine-PSL, followed by a Master&amp;rsquo;s degree in Data Engineering at DSTI.&lt;/p&gt;
+&lt;p&gt;For two years, I worked as a data engineer in an environmental technology company, managing the full data chain: from centralizing heterogeneous sources on Google Cloud Platform to building Power BI dashboards for leadership teams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://paulafonte.fr/en/contact/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://paulafonte.fr/en/contact/</guid>
+      <description>&lt;p&gt;Do you have a data project, a freelance mission, or simply want to start a conversation?&lt;/p&gt;
+&lt;p&gt;You can reach me here:&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:paulafonte97@gmail.com&#34;&gt;paulafonte97@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phone&lt;/strong&gt;: +33 6 16 61 01 16&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href=&#34;https://linkedin.com/in/paulafonte&#34;&gt;linkedin.com/in/paulafonte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/PaulaF-source&#34;&gt;github.com/PaulaF-source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location&lt;/strong&gt;: Paris, Île-de-France — available on-site and remote&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;availability&#34;&gt;Availability&lt;/h3&gt;
+&lt;p&gt;I am available for freelance missions in data engineering, analytics, and predictive modeling. Short and long missions are both possible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>https://paulafonte.fr/en/services/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://paulafonte.fr/en/services/</guid>
+      <description>&lt;p&gt;I focus on three complementary service areas, shaped around pipeline reliability, analytical clarity, and automation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;data-engineering-on-gcp&#34;&gt;Data Engineering on GCP&lt;/h2&gt;
+&lt;p&gt;For teams that need to centralize fragmented data sources and make them easier to operate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect APIs, files, ERP, or operational tools into a structured data flow&lt;/li&gt;
+&lt;li&gt;Build ETL pipelines for ingestion, transformation, and loading&lt;/li&gt;
+&lt;li&gt;Organize and optimize storage on BigQuery&lt;/li&gt;
+&lt;li&gt;Orchestrate recurring jobs with Airflow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Stack&lt;/strong&gt;: GCP, BigQuery, Cloud Storage, Dataflow, Cloud Run, Airflow, Docker, Python, SQL&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

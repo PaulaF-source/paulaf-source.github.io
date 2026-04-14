@@ -1,6 +1,7 @@
 baseURL = "https://paulafonte.fr/"
-languageCode = "fr"
+languageCode = "fr-FR"
 defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
 title = "Paula Fonte"
 theme = "PaperMod"
 
@@ -10,7 +11,6 @@ theme = "PaperMod"
 [params]
   disableGoogleAnalytics = true
   env = "production"
-  description = "Portfolio freelance en data engineering, analytics et automatisation."
   author = "Paula Fonte"
   defaultTheme = "light"
   disableThemeToggle = true
@@ -20,10 +20,6 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
-
-  [params.brand]
-    subtitle = "Data Engineering & Analytics"
-    footer = "Portfolio freelance en data engineering, analytics et automatisation."
 
   [[params.socialIcons]]
     name = "linkedin"
@@ -38,32 +34,117 @@ theme = "PaperMod"
 [params.profileMode]
   enabled = false
 
-[menu]
-  [[menu.main]]
-    identifier = "services"
-    name = "Services"
-    url = "/services/"
-    weight = 10
-  [[menu.main]]
-    identifier = "portfolio"
-    name = "Portfolio"
-    url = "/portfolio/"
-    weight = 20
-  [[menu.main]]
-    identifier = "about"
-    name = "À propos"
-    url = "/about/"
-    weight = 30
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 40
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 50
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr-FR"
+    weight = 1
+    title = "Paula Fonte"
+    [languages.fr.params]
+      description = "Portfolio freelance en data engineering, analytics et automatisation."
+      [languages.fr.params.brand]
+        subtitle = "Data Engineering & Analytics"
+        footer = "Portfolio freelance en data engineering, analytics et automatisation."
+
+    [[languages.fr.menu.main]]
+      identifier = "services"
+      name = "Services"
+      url = "/services/"
+      weight = 10
+    [[languages.fr.menu.main]]
+      identifier = "portfolio"
+      name = "Portfolio"
+      url = "/portfolio/"
+      weight = 20
+    [[languages.fr.menu.main]]
+      identifier = "about"
+      name = "À propos"
+      url = "/about/"
+      weight = 30
+    [[languages.fr.menu.main]]
+      identifier = "blog"
+      name = "Blog"
+      url = "/blog/"
+      weight = 40
+    [[languages.fr.menu.main]]
+      identifier = "contact"
+      name = "Contact"
+      url = "/contact/"
+      weight = 50
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-US"
+    weight = 2
+    title = "Paula Fonte"
+    [languages.en.params]
+      description = "Freelance portfolio focused on data engineering, analytics, and automation."
+      [languages.en.params.brand]
+        subtitle = "Data Engineering & Analytics"
+        footer = "Freelance portfolio focused on data engineering, analytics, and automation."
+
+    [[languages.en.menu.main]]
+      identifier = "services"
+      name = "Services"
+      url = "/services/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "portfolio"
+      name = "Portfolio"
+      url = "/portfolio/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about/"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "blog"
+      name = "Blog"
+      url = "/blog/"
+      weight = 40
+    [[languages.en.menu.main]]
+      identifier = "contact"
+      name = "Contact"
+      url = "/contact/"
+      weight = 50
+
+  [languages.es]
+    languageName = "Español"
+    languageCode = "es-ES"
+    weight = 3
+    title = "Paula Fonte"
+    [languages.es.params]
+      description = "Portfolio freelance orientado a data engineering, analytics y automatización."
+      [languages.es.params.brand]
+        subtitle = "Data Engineering & Analytics"
+        footer = "Portfolio freelance orientado a data engineering, analytics y automatización."
+
+    [[languages.es.menu.main]]
+      identifier = "services"
+      name = "Servicios"
+      url = "/services/"
+      weight = 10
+    [[languages.es.menu.main]]
+      identifier = "portfolio"
+      name = "Portfolio"
+      url = "/portfolio/"
+      weight = 20
+    [[languages.es.menu.main]]
+      identifier = "about"
+      name = "Sobre mí"
+      url = "/about/"
+      weight = 30
+    [[languages.es.menu.main]]
+      identifier = "blog"
+      name = "Blog"
+      url = "/blog/"
+      weight = 40
+    [[languages.es.menu.main]]
+      identifier = "contact"
+      name = "Contacto"
+      url = "/contact/"
+      weight = 50
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

@@ -10,37 +10,60 @@
             </a>
         </div>
 
-        {{- $currentPage := . }}
-        <ul id="menu" class="menu">
-            {{- range site.Menus.main }}
-            {{- $menuItemURL := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL)) | absLangURL }}
-            {{- $pageURL := $currentPage.Permalink | absLangURL }}
-            {{- $isSearch := eq (site.GetPage .KeyName).Layout `search` }}
-            {{- $menuClass := "" }}
-            {{- if eq .Identifier "contact" }}
-                {{- $menuClass = "menu-contact" }}
-            {{- else if eq .Identifier "blog" }}
-                {{- $menuClass = "menu-secondary" }}
-            {{- end }}
-            <li{{ with $menuClass }} class="{{ . }}"{{ end }}>
-                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}{{ cond $isSearch " (Alt + /)" "" }}"
-                {{- cond $isSearch (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-                    <span{{ if eq $menuItemURL $pageURL }} class="active"{{ end }}>
-                        {{- .Pre }}
-                        {{- .Name -}}
-                        {{- .Post }}
-                    </span>
-                    {{- if (findRE "://" .URL) }}&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
-                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
+        <div class="header-actions">
+            {{- $currentPage := . }}
+            <ul id="menu" class="menu">
+                {{- range site.Menus.main }}
+                {{- $menuItemURL := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL)) | absLangURL }}
+                {{- $pageURL := $currentPage.Permalink | absLangURL }}
+                {{- $isSearch := eq (site.GetPage .KeyName).Layout `search` }}
+                {{- $menuClass := "" }}
+                {{- if eq .Identifier "contact" }}
+                    {{- $menuClass = "menu-contact" }}
+                {{- else if eq .Identifier "blog" }}
+                    {{- $menuClass = "menu-secondary" }}
+                {{- end }}
+                <li{{ with $menuClass }} class="{{ . }}"{{ end }}>
+                    <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}{{ cond $isSearch " (Alt + /)" "" }}"
+                    {{- cond $isSearch (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
+                        <span{{ if eq $menuItemURL $pageURL }} class="active"{{ end }}>
+                            {{- .Pre }}
+                            {{- .Name -}}
+                            {{- .Post }}
+                        </span>
+                        {{- if (findRE "://" .URL) }}&nbsp;
+                        <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <path d="M15 3h6v6"></path>
+                            <path d="M10 14L21 3"></path>
+                        </svg>
+                        {{- end }}
+                    </a>
+                </li>
+                {{- end }}
+            </ul>
+
+            {{- if gt (len hugo.Sites) 1 }}
+            <div class="lang-switcher" aria-label="Language switcher">
+                {{- range hugo.Sites }}
+                {{- $langSite := . }}
+                {{- $target := $langSite.Home.RelPermalink }}
+                {{- if eq $currentPage.Lang $langSite.Language.Lang }}
+                    {{- $target = $currentPage.RelPermalink }}
+                {{- else }}
+                    {{- range $currentPage.AllTranslations }}
+                        {{- if eq .Lang $langSite.Language.Lang }}
+                            {{- $target = .RelPermalink }}
+                        {{- end }}
                     {{- end }}
+                {{- end }}
+                <a href="{{ $target }}" lang="{{ $langSite.Language.Lang }}"{{ if eq $currentPage.Lang $langSite.Language.Lang }} class="active" aria-current="true"{{ end }}>
+                    {{ upper $langSite.Language.Lang }}
                 </a>
-            </li>
+                {{- end }}
+            </div>
             {{- end }}
-        </ul>
+        </div>
     </nav>
 </header>
