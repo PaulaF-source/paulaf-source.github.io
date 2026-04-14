@@ -171,3 +171,59 @@ main {
 * {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
+
+/* =========================
+   Typography upgrade
+========================= */
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+/* texto más limpio */
+
+p {
+  font-size: 1.05rem;
+  max-width: 620px;
+}
+
+
+section {
+  margin-bottom: 80px;
+}
+
+main {
+  padding-top: 40px;
+}
+
+a[href*="#"] {
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 10px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #1D4ED8, #3B82F6);
+  color: white !important;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
