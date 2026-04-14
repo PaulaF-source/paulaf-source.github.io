@@ -1,0 +1,82 @@
+baseURL = "https://paulaf-source.github.io/"  # Cambiar si usas dominio propio
+languageCode = "fr"
+title = "Paula Fonte — Ingénieure Data & Analytics"
+theme = "PaperMod"
+paginate = 5
+
+# Si compras dominio propio, cambia baseURL a: https://paulafonte.fr/
+
+[params]
+  env = "production"
+  description = "Ingénieure Data freelance — Data Engineering, Analytics & Modélisation"
+  author = "Paula Fonte"
+  defaultTheme = "light"        # light | dark | auto
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Paula Fonte"
+    Content = """
+Ingénieure Data & Analytics — Freelance à Paris
+
+Double formation en mathématiques appliquées (Dauphine-PSL) et ingénierie des données (DSTI). \
+J'aide les entreprises à structurer leurs données, automatiser leurs pipelines et transformer \
+leurs données en décisions.
+"""
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/paulafonte"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/PaulaF-source"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:paulafonte97@gmail.com"
+
+[params.profileMode]
+  enabled = false  # Poner true si prefieres modo profile en vez de homeInfo
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "À propos"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 20
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 30
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 40
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    weight = 1

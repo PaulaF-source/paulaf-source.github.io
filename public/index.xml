@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Paula Fonte — Ingénieure Data &amp; Analytics</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Paula Fonte — Ingénieure Data &amp; Analytics</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>À propos</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;mon-parcours&#34;&gt;Mon parcours&lt;/h2&gt;
+&lt;p&gt;Je suis Paula Fonte, ingénieure data avec un parcours atypique qui fait ma force.&lt;/p&gt;
+&lt;p&gt;Diplômée en &lt;strong&gt;mathématiques&lt;/strong&gt; à l&amp;rsquo;Université de La Havane, j&amp;rsquo;ai poursuivi ma formation en France avec un &lt;strong&gt;Master 2 en Mathématiques et Applications&lt;/strong&gt; à l&amp;rsquo;Université Paris &lt;strong&gt;Dauphine-PSL&lt;/strong&gt;, suivi d&amp;rsquo;un &lt;strong&gt;Master en Ingénierie Data&lt;/strong&gt; au DSTI.&lt;/p&gt;
+&lt;p&gt;Pendant deux ans, j&amp;rsquo;ai travaillé comme &lt;strong&gt;data engineer&lt;/strong&gt; dans une entreprise de technologie environnementale, où j&amp;rsquo;ai géré l&amp;rsquo;ensemble de la chaîne de données : de la centralisation de sources hétérogènes (IoT, ERP, logistique) sur &lt;strong&gt;Google Cloud Platform&lt;/strong&gt; jusqu&amp;rsquo;à la création de dashboards Power BI pour la direction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Vous avez un projet data ? Une mission freelance ? Ou simplement envie d&amp;rsquo;échanger ?&lt;/p&gt;
+&lt;p&gt;N&amp;rsquo;hésitez pas à me contacter.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;📧 &lt;strong&gt;Email&lt;/strong&gt; : &lt;a href=&#34;mailto:paulafonte97@gmail.com&#34;&gt;paulafonte97@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📱 &lt;strong&gt;Téléphone&lt;/strong&gt; : +33 6 16 61 01 16&lt;/p&gt;
+&lt;p&gt;💼 &lt;strong&gt;LinkedIn&lt;/strong&gt; : &lt;a href=&#34;https://linkedin.com/in/paulafonte&#34;&gt;linkedin.com/in/paulafonte&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;💻 &lt;strong&gt;GitHub&lt;/strong&gt; : &lt;a href=&#34;https://github.com/PaulaF-source&#34;&gt;github.com/PaulaF-source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📍 &lt;strong&gt;Localisation&lt;/strong&gt; : Paris, Île-de-France — disponible en présentiel et en remote&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;disponibilité&#34;&gt;Disponibilité&lt;/h3&gt;
+&lt;p&gt;Je suis &lt;strong&gt;disponible immédiatement&lt;/strong&gt; pour des missions en data engineering, analytics ou modélisation prédictive. Missions courtes ou longues, en français, anglais ou espagnol.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>http://localhost:1313/services/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/</guid>
+      <description>&lt;p&gt;Je propose trois axes de services complémentaires, adaptés aux besoins de chaque client.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-data-engineering-sur-gcp&#34;&gt;🔧 Data Engineering sur GCP&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Pour les entreprises qui ont des données dispersées et veulent les centraliser.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Vos données sont dans des systèmes différents (ERP, fichiers, APIs, IoT) et sont difficiles à exploiter ensemble. Je vous aide à construire une infrastructure de données fiable et automatisée.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ce que je fais concrètement :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Centralisation de vos sources de données sur Google Cloud Platform&lt;/li&gt;
+&lt;li&gt;Création de pipelines ETL automatisés (ingestion, transformation, chargement)&lt;/li&gt;
+&lt;li&gt;Administration et optimisation de votre data lake sur BigQuery&lt;/li&gt;
+&lt;li&gt;Orchestration avec Apache Airflow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Stack&lt;/strong&gt; : GCP (BigQuery, Cloud Storage, Dataflow, Cloud Run), Apache Airflow, Docker, Python, SQL&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
