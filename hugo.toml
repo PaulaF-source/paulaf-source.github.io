@@ -3,7 +3,9 @@ languageCode = "fr"
 defaultContentLanguage = "fr"
 title = "Paula Fonte — Ingénieure Data & Analytics"
 theme = "PaperMod"
-paginate = 5
+
+[pagination]
+  pagerSize = 5
 
 # Si compras dominio propio, cambia baseURL a: https://paulafonte.fr/
 
