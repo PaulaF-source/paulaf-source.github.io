@@ -107,7 +107,7 @@ pre {
 
 .logo a {
   display: inline-flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   gap: 0px;
   color: var(--primary);
 }
