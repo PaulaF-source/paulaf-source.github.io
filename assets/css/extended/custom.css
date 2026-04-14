@@ -91,7 +91,7 @@ pre {
 .header-nav {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 6px 20px;
 
   display: flex;
   align-items: center;
@@ -173,9 +173,12 @@ pre {
 
 .menu-contact a {
   border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 8px 18px rgba(16, 35, 63, 0.05);
+  background: transparent;
+  box-shadow: none;
   color: var(--primary);
+
+  border-radius: 4px;
+  padding: 4px 10px;
 }
 
 .lang-switcher {
