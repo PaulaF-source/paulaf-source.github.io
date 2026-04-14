@@ -278,7 +278,7 @@ pre {
 
 .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  grid-template-columns: 1.3fr 0.7fr;
   gap: 32px;
   padding: 52px;
   background:
@@ -667,8 +667,8 @@ pre {
   }
 
   .home-hero h1 {
-    max-width: none;
-    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    font-size: clamp(2rem, 2.5vw, 2.8rem);
+    max-width: 26ch !important;
   }
 }
 
