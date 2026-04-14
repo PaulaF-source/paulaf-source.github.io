@@ -8,6 +8,7 @@ paginate = 5
 # Si compras dominio propio, cambia baseURL a: https://paulafonte.fr/
 
 [params]
+  disableGoogleAnalytics = true
   env = "production"
   description = "Ingénieure Data freelance — Data Engineering, Analytics & Modélisation"
   author = "Paula Fonte"
