@@ -305,7 +305,7 @@ pre {
 /* Ajuste: reducir tamaño del título del hero (menos “marketing”) */
 .home-hero h1 {
   margin: 0;
-  max-width: 10ch; /* se mantiene igual que tu versión actual */
+  max-width: 22ch; /* se mantiene igual que tu versión actual */
   font-size: clamp(2rem, 2.5vw, 2.8rem); /* único cambio */
 }
 
