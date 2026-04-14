@@ -130,8 +130,11 @@ pre {
   text-transform: uppercase;
 }
 
+/* Ajuste fino: compactar subtítulo del logo */
 .logo-subtitle {
-  color: var(--secondary);
+  line-height: 1;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
 }
 
 .header-actions {
