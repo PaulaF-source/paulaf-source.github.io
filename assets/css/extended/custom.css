@@ -108,7 +108,7 @@ pre {
 .logo a {
   display: inline-flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 0px;
   color: var(--primary);
 }
 
