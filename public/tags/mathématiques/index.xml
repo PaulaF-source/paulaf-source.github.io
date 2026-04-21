@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mathématiques on Paula Fonte</title>
-    <link>https://paulafonte.fr/tags/math%C3%A9matiques/</link>
+    <link>http://localhost:1313/tags/math%C3%A9matiques/</link>
     <description>Recent content in Mathématiques on Paula Fonte</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://paulafonte.fr/tags/math%C3%A9matiques/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/math%C3%A9matiques/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyse Prédictive — Prévision de la demande et détection d&#39;anomalies</title>
-      <link>https://paulafonte.fr/portfolio/analyse-predictive/</link>
+      <link>http://localhost:1313/portfolio/analyse-predictive/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/portfolio/analyse-predictive/</guid>
+      <guid>http://localhost:1313/portfolio/analyse-predictive/</guid>
       <description>Application de modèles prédictifs combinant données météo, capteurs et indicateurs business. Background mathématique appliqué à des problèmes réels.</description>
+    </item>
+    <item>
+      <title>De mathématicienne à data engineer : pourquoi ce parcours a du sens</title>
+      <link>http://localhost:1313/blog/de-mathematicienne-a-data-engineer/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/de-mathematicienne-a-data-engineer/</guid>
+      <description>Comment une formation en mathématiques pures m&amp;rsquo;a préparée à résoudre des problèmes de données complexes, et pourquoi ce croisement est un atout rare sur le marché.</description>
     </item>
   </channel>
 </rss>

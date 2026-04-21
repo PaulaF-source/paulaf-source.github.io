@@ -6,20 +6,16 @@ ShowToc: false
 ShowBreadCrumbs: false
 ---
 
-Do you have a data project, a freelance mission, or simply want to start a conversation?
+I am open to discussing a data project, a freelance collaboration, or simply exchanging ideas.
 
-You can reach me here:
-
----
+Email is usually the easiest way to reach me, but you can also find me here:
 
 - **Email**: [paulafonte97@gmail.com](mailto:paulafonte97@gmail.com)
 - **Phone**: +33 6 16 61 01 16
 - **LinkedIn**: [linkedin.com/in/paulafonte](https://linkedin.com/in/paulafonte)
 - **GitHub**: [github.com/PaulaF-source](https://github.com/PaulaF-source)
-- **Location**: Paris, Île-de-France — available on-site and remote
+- **Location**: Paris, Île-de-France, with remote options depending on the project
 
----
+## Availability
 
-### Availability
-
-I am available for freelance missions in data engineering, analytics, and predictive modeling. Short and long missions are both possible.
+I work on data engineering, analytics, and the structuring of data systems, for both focused missions and longer collaborations.

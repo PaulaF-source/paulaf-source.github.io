@@ -41,15 +41,15 @@ theme = "PaperMod"
     weight = 1
     title = "Paula Fonte"
     [languages.fr.params]
-      description = "Portfolio freelance en data engineering, analytics et automatisation."
+      description = "Portfolio personnel en data engineering, analytics et systèmes data lisibles."
       [languages.fr.params.brand]
-        subtitle = "Data Engineering & Analytics"
-        footer = "Portfolio freelance en data engineering, analytics et automatisation."
+        subtitle = "Data Engineering · Analytics"
+        footer = "Portfolio personnel en data engineering, analytics et systèmes data lisibles."
 
     [[languages.fr.menu.main]]
-      identifier = "services"
-      name = "Services"
-      url = "/services/"
+      identifier = "about"
+      name = "À propos"
+      url = "/about/"
       weight = 10
     [[languages.fr.menu.main]]
       identifier = "portfolio"
@@ -57,20 +57,15 @@ theme = "PaperMod"
       url = "/portfolio/"
       weight = 20
     [[languages.fr.menu.main]]
-      identifier = "about"
-      name = "À propos"
-      url = "/about/"
-      weight = 30
-    [[languages.fr.menu.main]]
       identifier = "blog"
       name = "Blog"
       url = "/blog/"
-      weight = 40
+      weight = 30
     [[languages.fr.menu.main]]
       identifier = "contact"
       name = "Contact"
       url = "/contact/"
-      weight = 50
+      weight = 40
 
   [languages.en]
     languageName = "English"
@@ -78,15 +73,15 @@ theme = "PaperMod"
     weight = 2
     title = "Paula Fonte"
     [languages.en.params]
-      description = "Freelance portfolio focused on data engineering, analytics, and automation."
+      description = "Personal portfolio focused on data engineering, analytics, and readable data systems."
       [languages.en.params.brand]
-        subtitle = "Data Engineering & Analytics"
-        footer = "Freelance portfolio focused on data engineering, analytics, and automation."
+        subtitle = "Data Engineering · Analytics"
+        footer = "Personal portfolio focused on data engineering, analytics, and readable data systems."
 
     [[languages.en.menu.main]]
-      identifier = "services"
-      name = "Services"
-      url = "/services/"
+      identifier = "about"
+      name = "About"
+      url = "/about/"
       weight = 10
     [[languages.en.menu.main]]
       identifier = "portfolio"
@@ -94,20 +89,15 @@ theme = "PaperMod"
       url = "/portfolio/"
       weight = 20
     [[languages.en.menu.main]]
-      identifier = "about"
-      name = "About"
-      url = "/about/"
-      weight = 30
-    [[languages.en.menu.main]]
       identifier = "blog"
       name = "Blog"
       url = "/blog/"
-      weight = 40
+      weight = 30
     [[languages.en.menu.main]]
       identifier = "contact"
       name = "Contact"
       url = "/contact/"
-      weight = 50
+      weight = 40
 
   [languages.es]
     languageName = "Español"
@@ -115,15 +105,15 @@ theme = "PaperMod"
     weight = 3
     title = "Paula Fonte"
     [languages.es.params]
-      description = "Portfolio freelance orientado a data engineering, analytics y automatización."
+      description = "Portfolio personal orientado a data engineering, analytics y sistemas data legibles."
       [languages.es.params.brand]
-        subtitle = "Data Engineering & Analytics"
-        footer = "Portfolio freelance orientado a data engineering, analytics y automatización."
+        subtitle = "Data Engineering · Analytics"
+        footer = "Portfolio personal orientado a data engineering, analytics y sistemas data legibles."
 
     [[languages.es.menu.main]]
-      identifier = "services"
-      name = "Servicios"
-      url = "/services/"
+      identifier = "about"
+      name = "Sobre mí"
+      url = "/about/"
       weight = 10
     [[languages.es.menu.main]]
       identifier = "portfolio"
@@ -131,20 +121,15 @@ theme = "PaperMod"
       url = "/portfolio/"
       weight = 20
     [[languages.es.menu.main]]
-      identifier = "about"
-      name = "Sobre mí"
-      url = "/about/"
-      weight = 30
-    [[languages.es.menu.main]]
       identifier = "blog"
       name = "Blog"
       url = "/blog/"
-      weight = 40
+      weight = 30
     [[languages.es.menu.main]]
       identifier = "contact"
       name = "Contacto"
       url = "/contact/"
-      weight = 50
+      weight = 40
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

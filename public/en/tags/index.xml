@@ -2,80 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Paula Fonte</title>
-    <link>https://paulafonte.fr/en/tags/</link>
+    <link>http://localhost:1313/en/tags/</link>
     <description>Recent content in Tags on Paula Fonte</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://paulafonte.fr/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Science</title>
-      <link>https://paulafonte.fr/en/tags/data-science/</link>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/data-science/</guid>
+      <title>Career</title>
+      <link>http://localhost:1313/en/tags/career/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Engineering</title>
+      <link>http://localhost:1313/en/tags/data-engineering/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathematics</title>
-      <link>https://paulafonte.fr/en/tags/mathematics/</link>
+      <link>http://localhost:1313/en/tags/mathematics/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflection</title>
+      <link>http://localhost:1313/en/tags/reflection/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/reflection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:1313/en/tags/data-science/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/mathematics/</guid>
+      <guid>http://localhost:1313/en/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://paulafonte.fr/en/tags/python/</link>
+      <link>http://localhost:1313/en/tags/python/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/python/</guid>
+      <guid>http://localhost:1313/en/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Scikit-Learn</title>
-      <link>https://paulafonte.fr/en/tags/scikit-learn/</link>
+      <link>http://localhost:1313/en/tags/scikit-learn/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/scikit-learn/</guid>
+      <guid>http://localhost:1313/en/tags/scikit-learn/</guid>
       <description></description>
     </item>
     <item>
       <title>Airflow</title>
-      <link>https://paulafonte.fr/en/tags/airflow/</link>
+      <link>http://localhost:1313/en/tags/airflow/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/airflow/</guid>
+      <guid>http://localhost:1313/en/tags/airflow/</guid>
       <description></description>
     </item>
     <item>
       <title>BigQuery</title>
-      <link>https://paulafonte.fr/en/tags/bigquery/</link>
+      <link>http://localhost:1313/en/tags/bigquery/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/bigquery/</guid>
+      <guid>http://localhost:1313/en/tags/bigquery/</guid>
       <description></description>
     </item>
     <item>
       <title>ETL</title>
-      <link>https://paulafonte.fr/en/tags/etl/</link>
+      <link>http://localhost:1313/en/tags/etl/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/etl/</guid>
+      <guid>http://localhost:1313/en/tags/etl/</guid>
       <description></description>
     </item>
     <item>
       <title>GCP</title>
-      <link>https://paulafonte.fr/en/tags/gcp/</link>
+      <link>http://localhost:1313/en/tags/gcp/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/gcp/</guid>
+      <guid>http://localhost:1313/en/tags/gcp/</guid>
       <description></description>
     </item>
     <item>
       <title>Analytics</title>
-      <link>https://paulafonte.fr/en/tags/analytics/</link>
+      <link>http://localhost:1313/en/tags/analytics/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/analytics/</guid>
+      <guid>http://localhost:1313/en/tags/analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL</title>
-      <link>https://paulafonte.fr/en/tags/sql/</link>
+      <link>http://localhost:1313/en/tags/sql/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/tags/sql/</guid>
+      <guid>http://localhost:1313/en/tags/sql/</guid>
       <description></description>
     </item>
   </channel>

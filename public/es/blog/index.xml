@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Paula Fonte</title>
-    <link>https://paulafonte.fr/es/blog/</link>
+    <link>http://localhost:1313/es/blog/</link>
     <description>Recent content in Blog on Paula Fonte</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://paulafonte.fr/es/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>De matemática a data engineer: por qué este recorrido tiene sentido</title>
+      <link>http://localhost:1313/es/blog/de-mathematicienne-a-data-engineer/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/blog/de-mathematicienne-a-data-engineer/</guid>
+      <description>Cómo una formación matemática me preparó para resolver problemas de datos complejos y por qué esta combinación sigue siendo valiosa.</description>
+    </item>
   </channel>
 </rss>

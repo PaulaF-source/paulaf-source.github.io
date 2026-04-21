@@ -5,4 +5,4 @@ layout: "list"
 ShowBreadCrumbs: false
 ---
 
-Notas técnicas, aprendizajes de proyecto y reflexiones sobre sistemas de datos y analytics.
+Notas técnicas, reflexiones de proyecto y escritura sobre sistemas data, estructura y uso real.

@@ -26,7 +26,11 @@
                 <li{{ with $menuClass }} class="{{ . }}"{{ end }}>
                     <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}{{ cond $isSearch " (Alt + /)" "" }}"
                     {{- cond $isSearch (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-                        <span{{ if eq $menuItemURL $pageURL }} class="active"{{ end }}>
+                        {{- $isActive := eq $menuItemURL $pageURL -}}
+                        {{- if and $currentPage.IsHome (eq .Identifier "about") -}}
+                            {{- $isActive = true -}}
+                        {{- end -}}
+                        <span{{ if $isActive }} class="active"{{ end }}>
                             {{- .Pre }}
                             {{- .Name -}}
                             {{- .Post }}

@@ -2,376 +2,421 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://paulafonte.fr/es/portfolio/sql-showcase/</loc>
+    <loc>http://localhost:1313/es/portfolio/sql-showcase/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/portfolio/sql-showcase/"
+                href="http://localhost:1313/portfolio/sql-showcase/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/portfolio/sql-showcase/"
+                href="http://localhost:1313/en/portfolio/sql-showcase/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/portfolio/sql-showcase/"
+                href="http://localhost:1313/es/portfolio/sql-showcase/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/portfolio/pipeline-etl-gcp/</loc>
+    <loc>http://localhost:1313/es/portfolio/pipeline-etl-gcp/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/portfolio/pipeline-etl-gcp/"
+                href="http://localhost:1313/portfolio/pipeline-etl-gcp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/portfolio/pipeline-etl-gcp/"
+                href="http://localhost:1313/en/portfolio/pipeline-etl-gcp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/portfolio/pipeline-etl-gcp/"
+                href="http://localhost:1313/es/portfolio/pipeline-etl-gcp/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/portfolio/analyse-predictive/</loc>
+    <loc>http://localhost:1313/es/portfolio/analyse-predictive/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/portfolio/analyse-predictive/"
+                href="http://localhost:1313/portfolio/analyse-predictive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/portfolio/analyse-predictive/"
+                href="http://localhost:1313/en/portfolio/analyse-predictive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/portfolio/analyse-predictive/"
+                href="http://localhost:1313/es/portfolio/analyse-predictive/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/blog/</loc>
+    <loc>http://localhost:1313/es/tags/data-engineering/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/tags/data-engineering/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/tags/data-engineering/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/tags/data-engineering/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/blog/de-mathematicienne-a-data-engineer/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/blog/de-mathematicienne-a-data-engineer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/blog/de-mathematicienne-a-data-engineer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/blog/de-mathematicienne-a-data-engineer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tags/matem%C3%A1ticas/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tags/reflexi%C3%B3n/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tags/trayectoria/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/blog/</loc>
     <lastmod>2026-04-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/blog/"
+                href="http://localhost:1313/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/blog/"
+                href="http://localhost:1313/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/blog/"
+                href="http://localhost:1313/es/blog/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/contact/</loc>
+    <loc>http://localhost:1313/es/contact/</loc>
     <lastmod>2026-04-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/contact/"
+                href="http://localhost:1313/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/contact/"
+                href="http://localhost:1313/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/contact/"
+                href="http://localhost:1313/es/contact/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/</loc>
+    <loc>http://localhost:1313/es/portfolio/</loc>
     <lastmod>2026-04-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/"
+                href="http://localhost:1313/portfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/"
+                href="http://localhost:1313/en/portfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/"
+                href="http://localhost:1313/es/portfolio/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/portfolio/</loc>
+    <loc>http://localhost:1313/es/services/</loc>
     <lastmod>2026-04-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/portfolio/"
+                href="http://localhost:1313/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/portfolio/"
+                href="http://localhost:1313/en/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/portfolio/"
+                href="http://localhost:1313/es/services/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/services/</loc>
+    <loc>http://localhost:1313/es/about/</loc>
     <lastmod>2026-04-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/services/"
+                href="http://localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/services/"
+                href="http://localhost:1313/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/services/"
+                href="http://localhost:1313/es/about/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/about/</loc>
-    <lastmod>2026-04-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://paulafonte.fr/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://paulafonte.fr/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://paulafonte.fr/es/about/"
-                />
-  </url><url>
-    <loc>https://paulafonte.fr/es/tags/data-science/</loc>
+    <loc>http://localhost:1313/es/tags/data-science/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/data-science/"
+                href="http://localhost:1313/tags/data-science/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/data-science/"
+                href="http://localhost:1313/en/tags/data-science/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/data-science/"
+                href="http://localhost:1313/es/tags/data-science/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/tags/mathematics/</loc>
+    <loc>http://localhost:1313/es/tags/mathematics/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/mathematics/"
+                href="http://localhost:1313/en/tags/mathematics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/mathematics/"
+                href="http://localhost:1313/es/tags/mathematics/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/tags/python/</loc>
-    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/python/"
-                />
-  </url><url>
-    <loc>https://paulafonte.fr/es/tags/scikit-learn/</loc>
+    <loc>http://localhost:1313/es/tags/python/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/scikit-learn/"
+                href="http://localhost:1313/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/scikit-learn/"
+                href="http://localhost:1313/en/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/scikit-learn/"
+                href="http://localhost:1313/es/tags/python/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/tags/</loc>
+    <loc>http://localhost:1313/es/tags/scikit-learn/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/"
+                href="http://localhost:1313/tags/scikit-learn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/"
+                href="http://localhost:1313/en/tags/scikit-learn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/"
+                href="http://localhost:1313/es/tags/scikit-learn/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/tags/airflow/</loc>
+    <loc>http://localhost:1313/es/tags/airflow/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/airflow/"
+                href="http://localhost:1313/tags/airflow/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/airflow/"
+                href="http://localhost:1313/en/tags/airflow/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/airflow/"
+                href="http://localhost:1313/es/tags/airflow/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/tags/bigquery/</loc>
+    <loc>http://localhost:1313/es/tags/bigquery/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/bigquery/"
+                href="http://localhost:1313/tags/bigquery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/bigquery/"
+                href="http://localhost:1313/en/tags/bigquery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/bigquery/"
+                href="http://localhost:1313/es/tags/bigquery/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/tags/etl/</loc>
+    <loc>http://localhost:1313/es/tags/etl/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/etl/"
+                href="http://localhost:1313/tags/etl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/etl/"
+                href="http://localhost:1313/en/tags/etl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/etl/"
+                href="http://localhost:1313/es/tags/etl/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/tags/gcp/</loc>
+    <loc>http://localhost:1313/es/tags/gcp/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/gcp/"
+                href="http://localhost:1313/tags/gcp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/gcp/"
+                href="http://localhost:1313/en/tags/gcp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/gcp/"
+                href="http://localhost:1313/es/tags/gcp/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/tags/analytics/</loc>
+    <loc>http://localhost:1313/es/tags/analytics/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/analytics/"
+                href="http://localhost:1313/tags/analytics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/analytics/"
+                href="http://localhost:1313/en/tags/analytics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/analytics/"
+                href="http://localhost:1313/es/tags/analytics/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/tags/sql/</loc>
+    <loc>http://localhost:1313/es/tags/sql/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/tags/sql/"
+                href="http://localhost:1313/tags/sql/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/tags/sql/"
+                href="http://localhost:1313/en/tags/sql/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/tags/sql/"
+                href="http://localhost:1313/es/tags/sql/"
                 />
   </url><url>
-    <loc>https://paulafonte.fr/es/categories/</loc>
+    <loc>http://localhost:1313/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://paulafonte.fr/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://paulafonte.fr/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://paulafonte.fr/es/categories/"
+                href="http://localhost:1313/es/categories/"
                 />
   </url>
 </urlset>

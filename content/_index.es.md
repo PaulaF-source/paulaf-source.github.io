@@ -1,90 +1,58 @@
 ---
 title: "Paula Fonte"
-description: "Portfolio freelance orientado a data engineering, analytics y automatización."
-hero:
-  eyebrow: "Paula Fonte · Freelance data engineering & analytics"
-  title: "Hacer que tus flujos de datos sean más claros, fiables y útiles."
-  intro: "Ayudo a equipos a estructurar pipelines, modelos analíticos y automatizaciones sin añadir complejidad innecesaria."
-  credibility:
-    - "París · Remoto · Presencial"
-    - "Matemáticas aplicadas + ingeniería de datos"
-    - "GCP, BigQuery, Python, SQL"
-  systemFlow:
-    - "Recoger"
-    - "Estructurar"
-    - "Activar"
-  primaryCta:
-    label: "Hablar de tu proyecto"
-    url: "/contact/"
-  secondaryCta:
-    label: "Ver proyectos seleccionados"
-    url: "#selected-work"
-services:
-  eyebrow: "Ciclo data"
-  title: "Intervenir donde la cadena de datos se bloquea."
-  intro: "Una estructura organizada en tres momentos clave: conectar fuentes, aclarar modelos y automatizar el uso."
+description: "Portfolio personal orientado a data engineering, analytics y sistemas data legibles."
+homeIntro:
+  eyebrow: "Inicio"
+  title: "Trabajo los sistemas data con una atención especial a la estructura, la legibilidad y la transmisión."
+  lead: "Esta página está pensada como una introducción personal: mi recorrido, mi forma de mirar un problema data, algunos proyectos y los temas que me gusta desarrollar por escrito."
+  meta: "París · data engineering · analytics · francés, inglés, español"
+biography:
+  eyebrow: "Sobre mí"
+  title: "Un recorrido entre matemáticas, ingeniería y claridad."
+  intro: "No quiero que esta web parezca una página comercial. Prefiero mostrar de dónde vengo, cómo trabajo y qué me interesa de verdad en la data."
+  paragraphs:
+    - "Soy Paula Fonte, ingeniera de datos con una trayectoria que comienza en matemáticas en la Universidad de La Habana, continúa con matemáticas aplicadas en Paris Dauphine-PSL y después con data engineering en DSTI."
+    - "He trabajado con pipelines, modelos analíticos y dashboards en contexto industrial, con atención constante no solo a la robustez técnica, sino también a la inteligibilidad de los sistemas."
+    - "Lo que más me interesa es ese momento en el que algo complejo se vuelve más claro: cuando un flujo se ordena, cuando un modelo se vuelve legible, cuando un equipo entiende mejor lo que utiliza."
+  highlights:
+    - title: "Experiencia"
+      text: "Dos años en data engineering dentro de una empresa de tecnología medioambiental, entre fuentes heterogéneas, cloud y reporting."
+    - title: "Investigación"
+      text: "Participación en un proyecto de modelización matemática sobre grafos multicapa y análisis de sentimiento."
+    - title: "Fuera del trabajo"
+      text: "El ajedrez y la escritura también forman parte de mí; ambas prácticas alimentan mi paciencia y mi forma de ordenar las ideas."
+perspective:
+  eyebrow: "Perspectiva"
+  title: "Lo que intento aportar en un proyecto."
   items:
-    - label: "Recoger"
-      title: "Conectar y estabilizar los flujos"
-      text: "Cuando los datos están dispersos o se manejan manualmente, creo una base más robusta para centralizarlos y preparar su uso."
-      highlights:
-        - "APIs, ficheros, ERP, IoT"
-        - "ETL y orquestación"
-        - "GCP / BigQuery"
-    - label: "Estructurar"
-      title: "Aclarar los modelos analíticos"
-      text: "Transformo tablas difíciles de usar en modelos legibles y coherentes que facilitan un reporting fiable."
-      highlights:
-        - "SQL avanzado"
-        - "Reglas de negocio explícitas"
-        - "Dashboards más fiables"
-    - label: "Activar"
-      title: "Automatizar tareas recurrentes"
-      text: "Automatizo actualizaciones, sincronizaciones y controles para reducir trabajo manual y hacer las operaciones más fluidas."
-      highlights:
-        - "Python"
-        - "Cloud Run / scripts"
-        - "Workflows monitorizados"
+    - title: "Una base comprensible"
+      text: "Más allá del resultado técnico, me importa que el sistema siga siendo legible para las personas que van a retomarlo."
+    - title: "Una estructura sobria"
+      text: "Prefiero soluciones que respondan a la necesidad real sin añadir herramientas, capas o complejidad innecesaria."
+    - title: "Una mirada analítica"
+      text: "Mi formación matemática me ayuda a tomar distancia y pensar en modelos, dependencias y coherencia de conjunto."
 featuredWork:
-  eyebrow: "Proyectos seleccionados"
-  title: "Un portfolio organizado como casos de uso."
-  intro: "Ejemplos concretos para mostrar cómo estructuro un problema, aseguro el flujo y preparo datos realmente utilizables."
+  eyebrow: "Portfolio"
+  title: "Algunos proyectos, presentados con sencillez."
+  intro: "Por ahora prefiero un portfolio más pequeño que pueda crecer poco a poco con proyectos mejor contados y más pensados."
   projectCtaLabel: "Ver proyecto"
-  allProjectsLabel: "Explorar el portfolio completo"
-workingStyle:
-  eyebrow: "Enfoque"
-  title: "Una forma de trabajar pensada para sistemas complejos."
-  intro: "El valor no está solo en la herramienta entregada, sino en la claridad del sistema que queda después."
-  points:
-    - title: "Dividir el problema"
-      text: "Primero aclaro flujos, dependencias y usos de negocio antes de añadir capas técnicas."
-    - title: "Hacer la data legible"
-      text: "Un pipeline útil debe ser fiable, pero también comprensible para el equipo que lo retoma."
-    - title: "Diseñar para durar"
-      text: "Priorizo soluciones sobrias, documentadas y mantenibles."
-process:
-  eyebrow: "Colaboración"
-  title: "Tres etapas para avanzar con claridad."
-  intro: "Las misiones cortas o largas siguen la misma lógica: entender, diseñar y entregar con claridad."
-  steps:
-    - title: "Mapear"
-      text: "Comprender fuentes, puntos de fricción y objetivos de negocio."
-    - title: "Diseñar"
-      text: "Definir una estructura simple para flujos, modelos y automatizaciones."
-    - title: "Entregar"
-      text: "Proporcionar una base útil, documentada y fácil de retomar."
-finalCta:
-  eyebrow: "Contacto"
-  title: "¿Necesitas una base data más clara?"
-  text: "Trabajo con equipos que necesitan estabilizar un pipeline, estructurar su reporting o automatizar un workflow crítico."
-  availability:
-    - "Misiones freelance a partir de un mes"
-    - "París, presencial o remoto en Francia"
-    - "Francés, inglés y español"
+  allProjectsLabel: "Ver todo el portfolio"
+writing:
+  eyebrow: "Blog"
+  title: "Un espacio para escribir sobre data con algo más de distancia."
+  intro: "El blog me permite compartir aprendizajes, preguntas técnicas y una forma más pausada de pensar los sistemas."
+  text: "Me gustaría que creciera con el tiempo como una extensión natural del portfolio y de mi forma de trabajar."
   cta:
-    label: "Escribirme por email"
-    url: "mailto:paulafonte97@gmail.com"
-  secondaryCta:
-    label: "Ver todos los datos de contacto"
+    label: "Leer el blog"
+    url: "/blog/"
+contactBlock:
+  eyebrow: "Contacto"
+  title: "Si quieres escribirme, la forma más simple es hacerlo directamente."
+  text: "Para un proyecto, una colaboración o una conversación sobre data."
+  email: "paulafonte97@gmail.com"
+  location: "París · remoto posible según el proyecto"
+  languages: "Français · English · Español"
+  cta:
+    label: "Ver la página de contacto"
     url: "/contact/"
 ---

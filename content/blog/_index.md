@@ -5,4 +5,4 @@ layout: "list"
 ShowBreadCrumbs: false
 ---
 
-Réflexions techniques, retours d'expérience et apprentissages sur le monde de la data.
+Notes techniques, retours d'expérience et réflexions sur les systèmes data, leur structure et leur usage.

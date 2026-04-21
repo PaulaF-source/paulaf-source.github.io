@@ -2,57 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Paula Fonte</title>
-    <link>https://paulafonte.fr/es/</link>
+    <link>http://localhost:1313/es/</link>
     <description>Recent content on Paula Fonte</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
-    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://paulafonte.fr/es/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL Showcase — Consultas avanzadas sobre datos públicos</title>
-      <link>https://paulafonte.fr/es/portfolio/sql-showcase/</link>
+      <link>http://localhost:1313/es/portfolio/sql-showcase/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/es/portfolio/sql-showcase/</guid>
+      <guid>http://localhost:1313/es/portfolio/sql-showcase/</guid>
       <description>Demostración de SQL avanzado mediante CTEs, window functions y optimización de consultas sobre datasets públicos de BigQuery.</description>
     </item>
     <item>
       <title>Pipeline ETL en GCP — Ingesta y transformación automatizadas</title>
-      <link>https://paulafonte.fr/es/portfolio/pipeline-etl-gcp/</link>
+      <link>http://localhost:1313/es/portfolio/pipeline-etl-gcp/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/es/portfolio/pipeline-etl-gcp/</guid>
+      <guid>http://localhost:1313/es/portfolio/pipeline-etl-gcp/</guid>
       <description>Pipeline end-to-end con ingesta desde una API pública, transformación en BigQuery, orquestación con Airflow y exposición en dashboard.</description>
     </item>
     <item>
       <title>Análisis predictivo — Previsión de demanda y detección de anomalías</title>
-      <link>https://paulafonte.fr/es/portfolio/analyse-predictive/</link>
+      <link>http://localhost:1313/es/portfolio/analyse-predictive/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/es/portfolio/analyse-predictive/</guid>
+      <guid>http://localhost:1313/es/portfolio/analyse-predictive/</guid>
       <description>Modelos predictivos que combinan clima, sensores y señales de negocio, con una aproximación matemática aplicada a problemas operativos reales.</description>
     </item>
     <item>
+      <title>De matemática a data engineer: por qué este recorrido tiene sentido</title>
+      <link>http://localhost:1313/es/blog/de-mathematicienne-a-data-engineer/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/blog/de-mathematicienne-a-data-engineer/</guid>
+      <description>Cómo una formación matemática me preparó para resolver problemas de datos complejos y por qué esta combinación sigue siendo valiosa.</description>
+    </item>
+    <item>
       <title>Contacto</title>
-      <link>https://paulafonte.fr/es/contact/</link>
+      <link>http://localhost:1313/es/contact/</link>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/es/contact/</guid>
-      <description>&lt;p&gt;¿Tienes un proyecto data, una misión freelance o simplemente quieres intercambiar ideas?&lt;/p&gt;
-&lt;p&gt;Puedes escribirme aquí:&lt;/p&gt;
-&lt;hr&gt;
+      <guid>http://localhost:1313/es/contact/</guid>
+      <description>&lt;p&gt;Estoy abierta a conversar sobre un proyecto data, una colaboración freelance o simplemente intercambiar ideas.&lt;/p&gt;
+&lt;p&gt;La forma más sencilla de contactarme es por email, aunque también puedes encontrarme aquí:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:paulafonte97@gmail.com&#34;&gt;paulafonte97@gmail.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Teléfono&lt;/strong&gt;: +33 6 16 61 01 16&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href=&#34;https://linkedin.com/in/paulafonte&#34;&gt;linkedin.com/in/paulafonte&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/PaulaF-source&#34;&gt;github.com/PaulaF-source&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ubicación&lt;/strong&gt;: París, Île-de-France — disponible en presencial y remoto&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ubicación&lt;/strong&gt;: París, Île-de-France, con posibilidad de remoto según el proyecto&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;disponibilidad&#34;&gt;Disponibilidad&lt;/h3&gt;
-&lt;p&gt;Estoy disponible para misiones freelance en data engineering, analytics y modelización predictiva. Son posibles misiones cortas o largas.&lt;/p&gt;</description>
+&lt;h2 id=&#34;disponibilidad&#34;&gt;Disponibilidad&lt;/h2&gt;
+&lt;p&gt;Trabajo en temas de data engineering, analytics y estructuración de sistemas data, tanto para misiones concretas como para colaboraciones más continuadas.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Servicios</title>
-      <link>https://paulafonte.fr/es/services/</link>
+      <link>http://localhost:1313/es/services/</link>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/es/services/</guid>
+      <guid>http://localhost:1313/es/services/</guid>
       <description>&lt;p&gt;Trabajo en tres áreas complementarias, organizadas alrededor de la fiabilidad de los pipelines, la claridad analítica y la automatización.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;data-engineering-en-gcp&#34;&gt;Data Engineering en GCP&lt;/h2&gt;
@@ -67,9 +72,9 @@
     </item>
     <item>
       <title>Sobre mí</title>
-      <link>https://paulafonte.fr/es/about/</link>
+      <link>http://localhost:1313/es/about/</link>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/es/about/</guid>
+      <guid>http://localhost:1313/es/about/</guid>
       <description>&lt;h2 id=&#34;recorrido&#34;&gt;Recorrido&lt;/h2&gt;
 &lt;p&gt;Soy Paula Fonte, ingeniera de datos con un recorrido que combina rigor matemático y trabajo data orientado al uso real.&lt;/p&gt;
 &lt;p&gt;Después de estudiar matemáticas en la Universidad de La Habana, continué mi formación en Francia con un Máster en Matemáticas y Aplicaciones en Paris Dauphine-PSL y un Máster en Data Engineering en DSTI.&lt;/p&gt;

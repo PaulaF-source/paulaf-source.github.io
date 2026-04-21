@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Parcours on Paula Fonte</title>
+    <link>http://localhost:1313/tags/parcours/</link>
+    <description>Recent content in Parcours on Paula Fonte</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/parcours/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>De mathématicienne à data engineer : pourquoi ce parcours a du sens</title>
+      <link>http://localhost:1313/blog/de-mathematicienne-a-data-engineer/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/de-mathematicienne-a-data-engineer/</guid>
+      <description>Comment une formation en mathématiques pures m&amp;rsquo;a préparée à résoudre des problèmes de données complexes, et pourquoi ce croisement est un atout rare sur le marché.</description>
+    </item>
+  </channel>
+</rss>

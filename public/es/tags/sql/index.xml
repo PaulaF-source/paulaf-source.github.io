@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SQL on Paula Fonte</title>
-    <link>https://paulafonte.fr/es/tags/sql/</link>
+    <link>http://localhost:1313/es/tags/sql/</link>
     <description>Recent content in SQL on Paula Fonte</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://paulafonte.fr/es/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL Showcase — Consultas avanzadas sobre datos públicos</title>
-      <link>https://paulafonte.fr/es/portfolio/sql-showcase/</link>
+      <link>http://localhost:1313/es/portfolio/sql-showcase/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/es/portfolio/sql-showcase/</guid>
+      <guid>http://localhost:1313/es/portfolio/sql-showcase/</guid>
       <description>Demostración de SQL avanzado mediante CTEs, window functions y optimización de consultas sobre datasets públicos de BigQuery.</description>
     </item>
   </channel>

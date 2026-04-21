@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>BigQuery on Paula Fonte</title>
-    <link>https://paulafonte.fr/en/tags/bigquery/</link>
+    <link>http://localhost:1313/en/tags/bigquery/</link>
     <description>Recent content in BigQuery on Paula Fonte</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://paulafonte.fr/en/tags/bigquery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/bigquery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL Showcase — Advanced queries on public datasets</title>
-      <link>https://paulafonte.fr/en/portfolio/sql-showcase/</link>
+      <link>http://localhost:1313/en/portfolio/sql-showcase/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/portfolio/sql-showcase/</guid>
+      <guid>http://localhost:1313/en/portfolio/sql-showcase/</guid>
       <description>Showcase of advanced SQL skills through CTEs, window functions, and query optimization on public BigQuery datasets.</description>
     </item>
     <item>
       <title>ETL pipeline on GCP — Automated ingestion and transformation</title>
-      <link>https://paulafonte.fr/en/portfolio/pipeline-etl-gcp/</link>
+      <link>http://localhost:1313/en/portfolio/pipeline-etl-gcp/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://paulafonte.fr/en/portfolio/pipeline-etl-gcp/</guid>
+      <guid>http://localhost:1313/en/portfolio/pipeline-etl-gcp/</guid>
       <description>End-to-end pipeline with public API ingestion, BigQuery transformation, Airflow orchestration, and dashboard exposure.</description>
     </item>
   </channel>
